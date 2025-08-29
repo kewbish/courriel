@@ -29,7 +29,7 @@ First, set up the secrets and databases used:
 
 ```bash
 npx wrangler d1 create signups-db
-npx wrangler d1 execute signups-db --command "
+npx wrangler d1 execute signups-db --remote --command "
  CREATE TABLE signups (
    id INTEGER PRIMARY KEY AUTOINCREMENT,
    campaign TEXT NOT NULL,
