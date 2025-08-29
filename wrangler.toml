@@ -1,0 +1,11 @@
+name = "courriel"
+main = "src/index.js"
+compatibility_date = "2025-08-28"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "signups-db"
+database_id = "1a00bb5c-62f4-4c65-a12f-e01db5d9b9a7"
+
+[triggers]
+crons = ["0 13 * * *"] # 6AM Pacific 
